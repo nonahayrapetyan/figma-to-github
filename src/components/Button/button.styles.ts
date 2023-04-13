@@ -3,5 +3,6 @@ import styled from 'styled-components';
 import token from '../../token/tokens.json';
 
 export const SButton = styled(Button)`
-  color: ${token.global.orange.value};
+  background-color: ${token.global.orange.value};
+  color: #ffffff;
 `;
